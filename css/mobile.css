@@ -1,19 +1,19 @@
 @charset "utf-8";
 
-@media (max-width: 768px) {
+@media (max-width: 416px) {
 
     body {
-        width: 48em;
+        width: 26em;
     }
 
     header {
         height: 8em;
-        width: 48em;
+        width: 26em;
     }
 
     .headerTop {
         height: 8em;
-        width: 48em;
+        width: 26em;
         flex-direction: column;
         justify-content: center;
         padding: 0;
@@ -22,10 +22,11 @@
     .headerTop > h1 {
         font-size: 3em;
         width: 7em;
+        text-align: center;
     }
     
     nav {
-        width: 35em;
+        width: 26em;
         justify-content: space-around;
     }
 
@@ -36,7 +37,7 @@
     .apresentacao {
         display: flex;
         flex-direction: column;
-        width: 48em;
+        width: 26em;
     }
 
     .box img {
