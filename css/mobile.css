@@ -1,2 +1,46 @@
 @charset "utf-8";
 
+@media (max-width: 768px) {
+
+    body {
+        width: 48em;
+    }
+
+    header {
+        height: 8em;
+        width: 48em;
+    }
+
+    .headerTop {
+        height: 8em;
+        width: 48em;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .headerTop > h1 {
+        font-size: 3em;
+        width: 7em;
+    }
+    
+    nav {
+        width: 35em;
+        justify-content: space-around;
+    }
+
+    nav a {
+        font-size: 30px;
+    }
+
+    .apresentacao {
+        display: flex;
+        flex-direction: column;
+        width: 48em;
+    }
+
+    .box img {
+        width: 200px;
+        height: 100px;
+    }
+}
