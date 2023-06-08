@@ -98,27 +98,14 @@ nav > a:hover {
     justify-content: space-between;
 }
 
-.line-up {
-    display: inline-block;
-    background-color: #F5DFBB;
-    height: 10px;
-    width: 260px;
-}
-
 .cargoSelecao p:last-child {
     font-size: 40px;
     font-weight: 300;
     width: 400px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
-}
-
-.line-down {
-    display: inline-block;
-    background-color: #F5DFBB;
-    height: 5px;
-    width: 180px;
 }
 
 .apresentacaoSelecao p {

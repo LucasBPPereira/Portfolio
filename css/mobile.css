@@ -1,19 +1,19 @@
 @charset "utf-8";
 
-@media (max-width: 416px) {
+@media (max-width: 352px) {
 
     body {
-        width: 26em;
+        width: 22em;
     }
 
     header {
         height: 8em;
-        width: 26em;
+        width: 22em;
     }
 
     .headerTop {
         height: 8em;
-        width: 26em;
+        width: 22em;
         flex-direction: column;
         justify-content: center;
         padding: 0;
@@ -26,22 +26,77 @@
     }
     
     nav {
-        width: 26em;
+        width: 22em;
         justify-content: space-around;
     }
 
     nav a {
-        font-size: 30px;
+        font-size: 25px;
     }
 
     .apresentacao {
         display: flex;
         flex-direction: column;
-        width: 26em;
+        width: 22em;
+        margin-bottom: 100px;
+    }
+
+    .imgPerfil {
+        width: 15em;
+        margin-top: 12em;
+        margin-bottom: 10px;
+    }
+
+    .apresentacaoSobre {
+        width: 22em;
+    }
+
+    .cargoSelecao {
+        width: 22em;
+        height: 8em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .socialLinks {
+        width: 22em;
+        height: 5em;
+    }
+
+    .slider {
+        display: flex;
+        flex-direction: column;
+
     }
 
     .box img {
         width: 200px;
         height: 100px;
+    }
+
+    .minhasHabilidades {
+        height: 30em;
+    }
+
+    .containerHabilidades {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    /* footer */
+
+    .footer {
+        width: 22em;
+    }
+
+    .containerFooter {
+        width: 22em;
+    }
+
+    .containerLinks {
+        width: 22em;
     }
 }
