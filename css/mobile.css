@@ -59,9 +59,25 @@
         align-items: center;
     }
 
+    .cargoSelecao > p:last-child {
+        width: 300px;
+    }
+
+    .apresentacaoSelecao {
+        width: 22em;
+    }
+
     .socialLinks {
         width: 22em;
         height: 5em;
+    }
+
+    .containerLinks {
+        height: 5em;
+        padding: 0;
+        border-radius: 0;
+        border-bottom: 1px solid #0e9595;
+        box-shadow: none;
     }
 
     .slider {
@@ -73,6 +89,15 @@
     .box img {
         width: 200px;
         height: 100px;
+    }
+
+    .meusProjetos {
+        margin-top: 10em;
+    }
+
+    .containerProjetos {
+        padding: 0;
+        justify-content: space-around;
     }
 
     .minhasHabilidades {
