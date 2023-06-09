@@ -44,7 +44,7 @@
 
     .imgPerfil {
         width: 15em;
-        margin-top: 12em;
+        margin-top: 14em;
         margin-bottom: 10px;
     }
 
@@ -78,6 +78,7 @@
     .socialLinks {
         width: 22em;
         height: 5em;
+        margin-bottom: 20em;
     }
 
     .containerLinks {

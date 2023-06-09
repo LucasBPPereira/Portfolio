@@ -109,19 +109,25 @@ nav > a:hover {
     font-size: 18px;
 }
 
+
 .socialLinks {
     width: 580px;
     margin-top: 40px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-end;
-    gap: 10px;
+    
 }
 
 .socialLinks i {
     font-size: 50px;
     color: #6b6b6b;
+}
+
+.container-SocialLinks {
+    width: 35em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 15px;
 }
 
 i:hover {
@@ -270,7 +276,7 @@ footer {
     background-color: #0e9595;
 }
 
-.containerLinks {
+.container-FooterLinks {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
