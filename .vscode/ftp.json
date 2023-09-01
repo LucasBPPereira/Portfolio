@@ -1,0 +1,12 @@
+{
+    "name": "Meu sservidor",
+    "host": "hostlucasbase",
+    "protocol": "ftp",
+    "port": 21,
+    "username": "u284807087",
+    "password": "Codaw.1234",
+    "remotePath": "/public_html",
+    "uploadOnSave": true,
+    "useTempFile": false,
+    "openSsh": false
+}
