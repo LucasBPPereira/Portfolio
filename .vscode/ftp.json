@@ -1,5 +1,5 @@
 {
-    "name": "Meu sservidor",
+    "name": "Meu servidor",
     "host": "hostlucasbase",
     "protocol": "ftp",
     "port": 21,
